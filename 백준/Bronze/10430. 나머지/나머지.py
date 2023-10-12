@@ -1,0 +1,5 @@
+A,B,C=map(int,input().split())
+print((int(A)+int(B))%int(C))
+print((int(A%C) + int(B%C))%int(C))
+print(int(A*B)%int(C))
+print(int(A*B)%int(C))
